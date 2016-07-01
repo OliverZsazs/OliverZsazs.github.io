@@ -17,6 +17,9 @@
          var result = document.getElementById("answer3").value;
          if(result == "снег")
             count++;
+         var result = document.getElementById("answer4").value;
+         if(result == "Владивосток")
+            count++;
          alert("Вы ответили правильно на " +count+" загадок");
       }
 
@@ -39,6 +42,9 @@
          <input type="text" id="answer2"></input>
          <p>Скатерть бела весь свет одела</p>
          <input type="text" id="answer3"></input>
+         <br/>
+         <p>В каком городе спрятались мужское имя и сторона света?</p>
+         <input type="text" id="answer4"></input>
          <br/>
          <a href="#" onclick="checkAnswers();">Ответить</a>
        
